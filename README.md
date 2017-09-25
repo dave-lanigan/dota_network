@@ -1,1 +1,26 @@
 # dota_network
+
+### Authors: David Lanigan and Marco Ordonez
+
+## Description:
+
+This network is a weighted undirected graph of dota heroes. The weights between the nodes, which are the heroes in the game, are the percentages of games won if two heros were on the same team, subtracted from fifty percent. Therefore, heroes Zeus and Necrophos won 60 percent of the games they played together, then the edge weight between them would be 0.1. If, however, they won only 40 percent of their games the played together, the edge weight between them would be -0.1. Thresholded versions of these networks were made by choosing a win rate threshold value(example +-11%) and removing edges the that fall in that range.
+
+6.68A and B
+Nodes: 112
+Edges: 6107
+
+6.68A, percolated
+Nodes: 112
+Edges: 539
+
+
+6.68B, percolated
+Nodes: 112
+Edges: 523
+
+## Technical Details:
+Nodes were named using both Hero ID and Hero Name in tuple, i.e. (24,'Necrophos')
+
+## Data Source:
+data dump from OpenDota.com, all-pick, patches 6.68 and 6.68b
