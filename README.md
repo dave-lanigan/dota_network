@@ -23,4 +23,4 @@ Edges: 523
 Nodes were named using both Hero ID and Hero Name in tuple, i.e. (24,'Necrophos')
 
 ## Data Source:
-data dump from OpenDota.com, all-pick, patches 6.68 and 6.68b
+data dump from OpenDota.com, all-pick, patches 6.68 (text file 6.68A) and 6.68b (text file 6.68B)
