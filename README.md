@@ -21,6 +21,7 @@ Edges: 523
 
 ## Technical Details:
 Nodes were named using both Hero ID and Hero Name in tuple, i.e. (24,'Necrophos')
+Networks are GML format
 
 ## Data Source:
 data dump from OpenDota.com, all-pick, patches 6.68 (text file 6.68A) and 6.68b (text file 6.68B)
